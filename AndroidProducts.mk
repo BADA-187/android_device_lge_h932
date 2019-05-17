@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_h932.mk
+    $(LOCAL_DIR)/bootleg_h932.mk
