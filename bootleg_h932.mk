@@ -29,10 +29,3 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model
 
 TARGET_PICK_BOOTANIMATION := 3,4,8
 TARGET_BOOT_ANIMATION_RES := 1440
-
-# Maintainer
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    ro.bootleggers.maintainer="BADA_187"
-
-DEVICE_MAINTAINERS := BADA_187
