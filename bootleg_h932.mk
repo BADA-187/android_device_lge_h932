@@ -25,7 +25,3 @@ BUILD_FINGERPRINT="google/blueline/blueline:9/PQ3A.190505.002/5450365:user/relea
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model
 
-# Bootleggers Static Bootanimations
-
-TARGET_PICK_BOOTANIMATION := 3,4,8
-TARGET_BOOT_ANIMATION_RES := 1440
