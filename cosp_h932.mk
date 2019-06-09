@@ -1,14 +1,14 @@
 $(call inherit-product, device/lge/h932/full_h932.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+$(call inherit-product, vendor/cosp/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Device identifiers
 
-PRODUCT_NAME := bootleg_h932
+PRODUCT_NAME := cosp_h932
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_RELEASE_NAME := V30
@@ -25,7 +25,3 @@ BUILD_FINGERPRINT="google/blueline/blueline:9/PQ3A.190505.002/5450365:user/relea
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model ro.vendor.product.model
 
-# Bootleggers Static Bootanimations
-
-TARGET_PICK_BOOTANIMATION := 3,4,8
-TARGET_BOOT_ANIMATION_RES := 1440
